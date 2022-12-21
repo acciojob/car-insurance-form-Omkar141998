@@ -8,42 +8,24 @@
 </head>
 
 <body>
-	<form action="">
-		<label for="name" >Name</label>
-		<input type="text" id="#name" placeholder="Enter Name">
-		<br><br>
-		<label for="email">Email</label>
-		<input type="text" id="#email" placeholder="abc@gmail.com">
-		<br><br>
-		<label for="gender" name="radio">Gender</label>
-		<input id="male" type="radio" name="radio">
-		<label for="male">Male</label>
-		<input id="female" type="radio" name="radio">
-		<label for="female">Female</label>
-		<br><br>
-		<label for="cars">
-		<input type="text" id="#cars">
-			Car Brands
-			<select name="car" id="cars">
-				<option>BMW</option>
-		        <option>Audi</option>
-		        <option>Mercedez</option>
-			</select>
-		</label>
-		<br><br>
-		<label for="carage">Car Age</label>
-		<input type="text" id="#carage">
-		<br><br>
-		<label for="(dop)">Date of Purchase(dop)</label>
-        <input type="text" id="#dop">
-		<br><br>
-		<label for="password">Password</label>
-		<input type="text" id="#password">
-		<br><br>
-		<button for="sumbit">submit</button>
-	</form>
-	<!-- the entire body must be written by student -->
-	
+	<form action="" method="post">
+		<label for="name">Name:</label>
+		<input type="text" name="name" id="name" required>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		<label for="gender">Gender:</label>
+		<input type="radio" name="gender" value="male" id="male"> Male
+		<input type="radio" name="gender" value="female" id="female"> Female
+		<label for="cars">Car Brand:</label>
+		<select name="cars" id="cars">
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+		<label for="carAge">Car Age:</label>
+		<input type="text" name="carAge" id="carAge" required>
+		<label for="dop">Date of Purchase:</label>
+		<
     <script type="text/javascript" src="./script.js">
 </script>
 
